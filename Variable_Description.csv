@@ -1,0 +1,32 @@
+VARIABLE NAME,DESCRIPTION
+YEAR,Year of the departure date [yyyy]
+MONTH,Month of the departure date [mm]
+DAY,Day of the departure date [dd]
+DAY_OF_WEEK,Code to represent the day of the week [1 is Monday and 7 is Sunday]
+AIRLINE,Code for airline name
+FLIGHT_NUMBER,Flight identifier
+TAIL_NUMBER,Aircraft identifier
+ORIGIN_AIRPORT,Code for origin airport
+DESTINATION_AIRPORT,Code for destination airport
+SCHEDULED_DEPARTURE,Scheduled departure time [hhmm]
+DEPARTURE_TIME,WHEEL_OFF - TAXI_OUT [hhmm]
+DEPARTURE_DELAY,DEPARTURE_TIME - SCHEDULED DEPARTURE [min]
+TAXI_OUT,The time duration elapsed between departure from the origin airport gate and wheels off [min]
+WHEELS_OFF,The time point that the aircraft's wheels leave the ground [hhmm]
+SCHEDULED_TIME,The planned travel time [min]
+ELAPSED_TIME,AIR_TIME+TAXI_IN+TAXI_OUT [min]
+AIR_TIME,The time spent in the air [minutes]
+DISTANCE,The distance between the two airports [probably in miles]
+WHEELS_ON,The time point that the aircraft's wheels touch on the ground [hhmm]
+TAXI_IN,The time duration elapsed between wheels-on and gate arrival at the destination airport [minutes]
+SCHEDULED_ARRIVAL,The planned arrival time [hhmm]
+ARRIVAL_TIME,WHEELS_ON+TAXI_IN [hhmm]
+ARRIVAL_DELAY,ARRIVAL_TIME-SCHEDULED_ARRIVAL [min]
+DIVERTED,Diverted flag [0 - No and 1 - Yes]
+CANCELLED,"Cancellation flag [0 - No, 1 - Yes]"
+CANCELLATION_REASON,"Reason for cancellation [A - Airline/Carrier, B - Weather, C - National Air System, D - Security or """"]"
+AIR_SYSTEM_DELAY,Air system delay [min]
+SECURITY_DELAY,Security delay [min]
+AIRLINE_DELAY,Airline delay [min]
+LATE_AIRCRAFT_DELAY,Late aircraft delay [min]
+WEATHER_DELAY,Weather delay [min]
